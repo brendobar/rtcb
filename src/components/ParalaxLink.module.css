@@ -1,0 +1,45 @@
+.paralaxLink{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 80px;
+    line-height: 100%;
+    font-weight: 600;
+    text-align: center;
+    position: relative;
+    color: white;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: font-weight .08s;
+    border-top: 10px solid #fff;
+}
+.paralaxLink:hover{
+    color: white;
+    font-weight: 800;
+}
+
+
+@media (max-width: 1152px){
+    .paralaxLink{        
+        font-size: 52px;
+    }
+}
+
+
+
+@media (max-width: 767px){
+    .paralaxLink{        
+        font-size: 48px;
+    }
+}
+
+
+@media (max-width: 480px){
+    .paralaxLink{        
+        font-size: 36px;
+    }
+}
